@@ -1,0 +1,17 @@
+### Procedural vs OOP Approach
+
++++Procedural Programming
+
+Focuses on functions/procedures that operate on data. Data and functions are separate. 
+Program is a sequence of steps — 
+"top-down" approach.
+
+
++++ Object-Oriented Programming
+
+Focuses on objects that combine data and functions together. 
+Program is organized as interacting objects — 
+data is protected and only accessed through methods.
+
+
+

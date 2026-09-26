@@ -1,0 +1,18 @@
+#### what is aa oops ??
+++ oops is a of writing a code where you organize your program around "objects".
+++ data (attributes / properties) : things that bundle together data (properties) eg .. car color 
+++ Behavior (methods / function ): A method is just a function that belongs to an object (or a class). It defines something an object can do — its behavior.
+like Behavior (methods): accelerate(), brake(), refuel()
+
+### why do we need oops??
+++ data manage from the scatterd.
+++ easy to manage , easy to dubug 
+++ reuseablity like a class we can use multiple time when we need. class extend 
+++ Scalability & teamwork – Different people can work on different classes/objects independently.
+++ Security – Encapsulation use (hide senstive data)
+++ Real world mapping : student -> object
+++ code organization : from the messy code 
+                       group data + behaivore together
+
+                    
+

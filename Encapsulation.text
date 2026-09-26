@@ -1,0 +1,54 @@
+### Encapsulation
+
+Wrapping a data and method into a single unit and restricting a direct access.
+
+## Why ??
+
+++ data handling : sensitive data can't be modified directly by outside code
+++ secruity : prevents accidental or unauthorized changes
+++ controlled access : you decide how data can be accessed/changed (via functions)
+++ Flexibility — internal implementation can change without affecting outside code
+
+### How It's Done in C++
+
+Using access specifiers:
+
+==== Specifier	Access ====
+++ private :	Only accessible within the same class
+++ protected : Accessible within the class and its derived (child) classes
+++ public :	Accessible from anywhere
+
+
+### Key Concept: Getters and Setters
+
+=== Since private data can't be accessed directly, we use: ===
+
+++ Getter — a function to read the value (getBalance())
+++ Setter — a function to write/update the value, often with validation (deposit(), withdraw())
+
+
+
+### Example 
+
+class BankAccount{
+private 
+int blance ;
+
+public 
+void  deposit(int amount ){
+     blance += amount;
+
+} 
+public 
+int getBalance(){
+    return blance;
+}
+}
+
+
+
+
+
+===================== INTERVWIER ANSWER ==============================
+
+Encapsulation is the process of binding data (variables) and the functions that operate on that data into a single unit (class), while restricting direct access to the internal data from outside — protecting it from unauthorized access or modification.

@@ -1,0 +1,33 @@
+### Abstraction important notes ###
+
+======== C++ Abstract Class ======
+No abstract keyword — class becomes abstract if it has ≥1 pure virtual function
+Pure virtual function: virtual void draw() = 0;
+Cannot create object: Shape s; ❌
+Can create pointer/reference: Shape* s = new Circle(); ✅
+Can have constructor, destructor, variables, normal functions too
+Child class must override all pure virtual functions, else it also becomes abstract
+
+
+
+=======  Java Abstract Class ===========
+Has explicit keyword: abstract
+Syntax: abstract class Shape { abstract void draw(); }
+Abstract method = no body
+Cannot create object: new Shape() ❌
+Can create reference: Shape s = new Circle(); ✅
+Can have constructor, variables, static methods, concrete methods
+Child class must override all abstract methods, or must also be abstract
+
+
+==============4. C++ vs Java — Abstract Class Differences ======================================================
+Point	                      C++	                                  Java
+Keyword	                      No keyword (= 0 used)	                  abstract
+Object creation	              Pointer/reference only	              Reference only
+Multiple inheritance	      Allowed	                              Not allowed (use interface)
+Function body	              Pure virtual = no body	              Abstract method = no body
+override                      Keyword, written after function:        Annotation, written above function: 
+                              void draw() override { }                @Override void draw() { }
+
+===========================================================================================================================
+

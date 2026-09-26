@@ -1,0 +1,12 @@
+### Class and Object
+
+++ class : is a blueprint of craeting an object that defines what data and method object will have .
+It does not occupy memory by itself — it's just a definition.
+Declared once
+
+++ object : An object is an actual instance of a class
+real world entity created by using buleprint .
+and its occupy memory and hold actual values.
+Multiple objects can be created from one class
+
+
