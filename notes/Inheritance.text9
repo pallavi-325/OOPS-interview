@@ -1,0 +1,45 @@
+### Inheritance 
+
+one class acquire properties from another 
+
+Inheritance allows one class (child/derived class) to acquire the properties and behavior (data members + member functions) of another class (parent/base class).
+
+### Basic Syntax
+
+class Base {
+    // parent class
+};
+
+class Derived : access_specifier Base {
+    // child class
+};
+
+
+#### TYPES OF Inheritance
+1. Single Inheritance -> Ek base class → ek derived class
+2.  Multiple Inheritance -> Ek derived class → do ya zyada base classes se
+3.  Multilevel Inheritance -> Chain jaisa — Base → Derived1 → Derived2
+4. Hierarchical Inheritance -> Ek base class → multiple derived classes
+5. Hybrid Inheritance -> Do ya zyada types ka combination (jaise Multiple + Multilevel mix)
+
+
+++++++++++++++++++++ Access Specifiers +++++++++++++
+
+class Base {
+private:
+    int a;       // never accessible in Derived directly
+protected:
+    int b;       // accessible in Derived
+public:
+    int c;       // accessible in Derived
+};
+
+class Derived : public Base {
+    void show() {
+        // cout << a;   ❌ ERROR
+        cout << b;      // ✅ works
+        cout << c;      // ✅ works
+    }
+};
+
+INSHORT WE CANT USE private

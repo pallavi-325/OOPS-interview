@@ -1,0 +1,9 @@
+#### Interview Cheat Sheet 🎯
+
+*** Definition: “Inheritance is a mechanism where a derived class acquires properties and behavior of a base class.”
+*** Keyword used: : (colon) with access specifier — class Derived : public Base
+*** 5 Types: Single, Multiple, Multilevel, Hierarchical, Hybrid
+*** Private members are NEVER inherited directly — remember this rule!
+*** Constructor order: Base class constructor runs first, then Derived
+*** C++ supports Multiple Inheritance (unlike Java, jo interfaces use karta hai iske liye)
+*** Diamond Problem: Multiple inheritance mein ek issue aata hai jab do base classes same grandparent class se inherit karti hain — isse solve karte hain virtual inheritance se
